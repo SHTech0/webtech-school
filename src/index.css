@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600&family=League+Spartan:wght@400;700&display=swap");
+
+/* 
+font-family: 'Antonio', sans-serif;
+font-family: 'League Spartan', sans-serif; */
+.hoverBefore {
+    @apply hover:before:absolute hover:before:bg-primary hover:before:bottom-0 hover:before:left-0 hover:before:h-1 hover:before:w-full hover:before:scale-100 hover:before:duration-300;
+}
+body {
+    @apply text-secondary-200 dark:text-white;
+}
